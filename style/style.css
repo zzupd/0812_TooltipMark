@@ -31,16 +31,17 @@ div#toolTipTxt {
   left: 110px;
   top: -40px;
 
-  /* display: none; */
+  display: none;
 }
+
 div#baseTxt {
   border-bottom: 1px dotted #000;
   display: inline-block;
 }
 
-/* div#baseTxt:hover ~ div {
+div#baseTxt:hover ~ div {
   display: block;
-} */
+}
 
 /* 삼각형 화살표 시작 */
 div#arrowMark {
@@ -48,7 +49,7 @@ div#arrowMark {
   border-color: rgba(255, 255, 255, 0);
   border-top-color: #777;
 
-  /* display: none; */
+  display: none;
   position: absolute;
   left: 164px;
   top: -5px;
